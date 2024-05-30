@@ -1,0 +1,19 @@
+.container-cards {
+  background: url(/banner/bannerCompleto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 100px;
+}
+
+.accordion-item{
+  width: 1000px;
+}
+
+.accordion-header{
+  border-radius: 30px;
+}

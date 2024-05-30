@@ -1,0 +1,85 @@
+.container-hacemos {
+  background: url(/banner/bannerFondo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 100px;
+
+  display: flex;
+  gap: 16px;
+}
+
+.box-hacemos{
+    position: relative;
+    top: 10px;
+}
+
+.box-img {
+  background: rgb(2, 48, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 48, 85, 1) 0%,
+    rgba(19, 90, 131, 1) 72%,
+    rgba(23, 138, 196, 1) 100%
+  );
+
+  padding: 50px;
+  border-radius: 15px;
+
+  position: relative;
+  right: 100px;
+}
+
+.title-hacemos{
+  color: rgb(39, 125, 211);
+
+  font-size: 50px;
+}
+
+.parrafo-hacemos {
+  color: white;
+  font-size: 20px;
+  margin-right: 300px;
+}
+
+@media (max-width:1383px){
+
+  .box-hacemos{
+    position: relative;
+    top: 5px;
+  }
+
+  .title-hacemos{
+    color: rgb(39, 125, 211);
+  
+    font-size: 30px;
+  }
+  
+  .parrafo-hacemos {
+    color: white;
+    font-size: 15px;
+    margin-right: 300px;
+  }
+
+  .box-img {
+    background: rgb(2, 48, 85);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 48, 85, 1) 0%,
+      rgba(19, 90, 131, 1) 72%,
+      rgba(23, 138, 196, 1) 100%
+    );
+  
+    padding: 30px;
+    border-radius: 15px;
+    height: 390px;
+  
+    position: relative;
+    right: 200px;
+  }
+
+  .img-hacemos{
+    width: 300px;
+  }
+}

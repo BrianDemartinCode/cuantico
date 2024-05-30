@@ -1,0 +1,22 @@
+.carousel-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Ajusta la altura según tus necesidades */
+}
+
+.carousel-image {
+    max-height: 70%;
+    max-width: 70%;
+    object-fit: contain;
+}
+
+/* @media (max-width:){
+
+} */

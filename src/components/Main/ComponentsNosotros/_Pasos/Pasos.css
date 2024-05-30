@@ -1,0 +1,15 @@
+.container-pasos{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.box-img-pasos{
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-pasos{
+    margin-left: 50px;
+    margin-right: 50px;
+}

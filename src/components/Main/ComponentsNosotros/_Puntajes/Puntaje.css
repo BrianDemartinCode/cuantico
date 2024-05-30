@@ -1,0 +1,26 @@
+.container-puntaje {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  gap: 200px;
+}
+
+.puntaje {
+  text-align: center;
+  transition: transform 0.3s ease; /* efecto de transición */
+}
+
+.puntaje:hover {
+  transform: translateY(-5px); /* efecto de elevación al pasar el ratón */
+}
+
+@media (max-width: 1880px) {
+  .container-puntaje{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    gap: 100px;
+  }
+}
